@@ -1,0 +1,27 @@
+.card li {
+    font-size: 14px;
+}
+
+.card ul {
+    height: 8rem;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 7px gainsboro;
+}
+
+.card-list-view {
+    padding: 2rem;
+    border-bottom: 1px solid gainsboro;
+}
+
+.card-list-view img {
+    width: 100%;
+}
+.card-list-view:hover {
+    box-shadow: 7px 7px 7px gainsboro;
+}
+
+.btnProductView:hover {
+    opacity: 0.7;
+}

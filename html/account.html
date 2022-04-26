@@ -1,0 +1,539 @@
+<!DOCTYPE htms>
+<htms lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản của tôi - Rayark Computer</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icon.png" />
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/account.css">
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed7f962f1f.js" crossorigin="anonymous"></script>
+    <script src="../js/descriptions.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/account.js"></script>
+</head>
+<body>
+    <div class="wrapper container-fluid p-0">
+        <div class="header px-5">
+            <div class="row pt-2">
+                <div class="col-6">
+                    <label id="lblFollow" class="text-light me-3">Theo dõi</label>
+                    <a href="" class="text-light me-2"><i class="fab fa-facebook"></i></a>
+                    <a href="" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="text-light"><i class="fab fa-youtube"></i></a>
+                    <span class="text-light mx-2">|</span>
+                    <a href="" class="text-light me-3" id="btnHelp"><i class="fas fa-question-circle me-2"></i>Hổ trợ</a>
+                </div>
+                <div class="col-6 text-end">
+                    <a href="" class="text-light ms-3" id="btnNotification"><i class="fas fa-bell"></i>&nbsp; Thông báo</a>
+                    <a href="order_management.html" class="text-light ms-3" id="btnOther"><i class="fas fa-map-marker-alt"></i>&nbsp; Đơn hàng</a>
+                    <a href="account.html" class="text-light ms-3" id="btnAccount"><i class="far fa-user"></i>&nbsp;&nbsp;<span>Tài khoản</span></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 align-self-center">
+                    <a class="navbar-brand" href="#"><img style="width: 100px;" src="../img/rayark-white-logo.png" alt="logo"></a>
+                </div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-7">
+                            <nav class="navbar navbar-expand navbar-light py-0">
+                                <ul class="navbar-nav menu">
+                                    <li class="nav-item"><a class="nav-link text-light font-weight-bolder" href="../index.html">GIỚI THIỆU</a>
+                                    <li class="nav-item"><a class="nav-link text-light" href="search-result.html">SẢN PHẨM</a>
+                                        <ul class="navbar-nav submenu">
+                                            <li class="nav-item"><a href="" class="nav-link text-dark">Laptop</a>
+                                                <ul class="navbar-nav submenu submenu2">
+                                                    <p class="font-weight-bolder my-2 mx-2">Laptop Văn Phòng</p>
+                                                    <ul style="list-style-type: none;">
+                                                        <li class="nav-item"><a href="" class="nav-link">Acer</a>
+                                                            <ul class="navbar-nav submenu submenu2 submenu3">
+                                                                <li class="nav-item"><a href="" class="nav-link">Aspire Series - Văn Phòng</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Swift Series - Cao Cấp</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="nav-item"><a href="" class="nav-link">HP</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Asus</a>
+                                                            <ul class="navbar-nav submenu submenu2 submenu3">
+                                                                <li class="nav-item"><a href="" class="nav-link">Vivobook - Văn Phòng</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Zenbook - Cao Cấp</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Experbook - Cao Cấp</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Lenovo</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Dell</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Apple</a>
+                                                            <ul class="navbar-nav submenu submenu2 submenu3">
+                                                                <li class="nav-item"><a href="" class="nav-link">Macbook - Cao Cấp</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <p class="font-weight-bolder mx-2 my-2">Laptop Gamming</p>
+                                                    <ul style="list-style-type: none;">
+                                                        <li class="nav-item"><a href="" class="nav-link">Acer</a>
+                                                            <ul class="navbar-nav submenu submenu2 submenu3">
+                                                                <li class="nav-item"><a href="" class="nav-link">Nitro Series - Gamming</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Hellios Series - Gamming</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Trilon Series - Gamming</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="nav-item"><a href="" class="nav-link">HP</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Asus</a>
+                                                            <ul class="navbar-nav submenu submenu2 submenu3">
+                                                                <li class="nav-item"><a href="" class="nav-link">TUF Series - Gamming</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">ROG Series - Gamming</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Zephyrus Series - Gamming</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Lenovo</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Dell</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link">Apple</a></li>
+                                                    </ul>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item"><a href="" class="nav-link text-dark">PC</a>
+                                                <ul class="navbar-nav submenu submenu2">
+                                                    <li class="nav-item"><a href="" class="nav-link">Acer</a></li>
+                                                    <li class="nav-item"><a href="" class="nav-link">HP</a></li>
+                                                    <li class="nav-item"><a href="" class="nav-link">Asus</a></li>
+                                                    <li class="nav-item"><a href="" class="nav-link">Lenovo</a></li>
+                                                    <li class="nav-item"><a href="" class="nav-link">Dell</a></li>
+                                                    <li class="nav-item"><a href="" class="nav-link">Apple</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item"><a href="" class="nav-link text-dark">Màn hình</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link text-dark">Phụ kiện</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link text-light" href="contact.html">LIÊN HỆ</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light" href="members.html">THÀNH VIÊN</a></li>
+                                    <li class="nav-item"><a class="nav-link text-light" href="sitemap.html">SITEMAP</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-5 align-self-center text-center">
+                            <div class="row bg-light rounded">
+                                <div class="col-10 p-0 align-self-center">
+                                    <input type="text" class="form-control border-0" id="txtSearch" placeholder="Nhập sản phẩm cần tìm">
+                                </div>
+                                <div class="col-2 align-self-center text-dark text-end p-0">
+                                    <button type="button" class="btn" id="btnSearch"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 align-self-center text-end">
+                    <button id="btnCart"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main px-5 py-3">
+            <div class="row">
+                <div class="col-2 py-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Tài Khoản Của Tôi</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav>
+                                <ul>
+                                    <li class="nav-item">
+                                        <a href="account.html" class="nav-link text-dark active">
+                                            <div class="icon bg-warning"><i class="far fa-user m-auto"></i></div>
+                                            Hồ Sơ Của Tôi
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="love_product.html" class="nav-link text-dark">
+                                            <span class="icon bg-danger"><i class="far fa-heart m-auto"></i></span>
+                                            Sản Phẩm Yêu Thích
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="order_management.html" class="nav-link text-dark">
+                                            <span class="icon bg-primary"><i class="far fa-file-alt m-auto"></i></span>
+                                            Đơn Hàng
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-dark">
+                                            <span class="icon bg-success"><i class="far fa-bell m-auto"></i></span>
+                                            Thông Báo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 bg-white rounded">
+                    <fieldset class="m-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <legend class="m-0">Hồ Sơ Của Tôi</legend>
+                                <p class="m-0">Quản lí thông tin hồ sơ của bạn</p>
+                            </div>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-12">
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 text-end mt-2">
+                                <label>Người dùng</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="txtUserName">
+                                <p class="form-text text-danger" id="UserNameNontification"></p>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-2 text-end align-self-center">
+                                <label for="">Email</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="text" class="form-control-plaintext" id="txtEmail" disabled>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-2 text-end align-self-center">
+                                <label for="">Mật Khẩu</label>
+                            </div>
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <input type="password" class="form-control border-0" id="txtPassword" disabled>
+                                    </div>
+                                    <div class="col-8 align-self-center">
+                                        <a data-bs-toggle="modal" data-bs-target="#modalChangePassword" style="color: dodgerblue; cursor: pointer;">Đổi mật khẩu?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-2 text-end mt-2">
+                                <label>Số điện thoại</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="txtPhoneNumber">
+                                <p class="form-text text-danger" id="PhoneNumberNontification"></p>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-2 text-end align-self-center">
+                                <label for="">Giới Tính</label>
+                            </div>
+                            <div class="col-10">
+                                <div class="gender">
+                                    <input type="radio" class="me-1" id="male"><label for="" class="me-2">Nam</label>
+                                    <input type="radio" class="me-1" id="female"><label for="" class="me-2">Nữ</label>
+                                    <input type="radio" class="me-1" id="other"><label for="" class="me-2">Khác</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-2 text-end mt-2">
+                                <label for="">Ngày Sinh</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="date" id="inputDayOfBirth" style="border: 1px solid #ced4da; border-radius: 5px; padding: 4px 10px 4px 10px;">
+                                <p class="form-text text-danger" id="DayOfBirthNontification"></p>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-12 text-center">
+                                <button type="button" class="btn btn-primary px-4" id="btnCapNhatThongTin">Cập Nhật</button>
+                            </div>
+                        </div>
+
+                        <!--Form Địa chỉ-->
+
+                        <div class="row">
+                            <div class="col-6 align-self-center">
+                                <h5 style="font-weight: 400; margin: 0;">Địa Chỉ</h5>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAddAddress"><i class="fas fa-plus"></i>&nbsp; Thêm địa chỉ mới</button>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-12">
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pl-5 pb-3">
+                                <div id="boxContact"><p>Bạn chưa cập nhật địa chỉ</p></div>
+                            </div>
+                        </div>
+
+                        <!--Form Thẻ Ghi Nợ-->
+
+                        <div class="row">
+                            <div class="col-6 align-self-center">
+                                <h5 style="font-weight: 400; margin: 0;">Thẻ Tín Dụng / Ghi Nợ</h5>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAddBankAccount"><i class="fas fa-plus"></i>&nbsp; Thêm thẻ mới</button>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-12">
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pl-5">
+                                <p>Bạn chưa có thẻ</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer"> 
+            <div class="row">
+                <div class="col-4">
+                    <h6>THÔNG TIN LIÊN HỆ</h6>
+                    <p>Hotline: 18006975</p>
+                    <p>Hệ thống tổng đài: 18006173</p>
+                    <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Quận Gò vấp,TP HCM</p>
+                </div>
+                <div class="col-3">
+                    <h6>HỖ TRỢ KHÁCH HÀNG</h6>
+                    <ul> 
+                        <li><a href="">Trung tâm trợ giúp</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Điều khoản mua bán</a></li>
+                        <li><a href="">Phương thức vận chuyển</a></li>
+                        <li><a href="">Phương thức thanh toán</a></li>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Chính sách bảo mật thông tin</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6>PHƯƠNG THỨC THANH TOÁN</h6>
+                    <ul>
+                        <li><a href="">VISA</a></li>
+                        <li><a href="">ZALO PAY</a></li>
+                        <li><a href="">BIDV</a></li>
+                        <li><a href="">SACOMBANK</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 ps-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h6>THEO DÕI</h6>
+                            <ul>
+                                <li class="btn-follow"><a href=""><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                                <li class="btn-follow"><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+                                <li class="btn-follow"><a href=""><i class="fab fa-youtube"></i>Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h6>TẢI ỨNG DỤNG RAYARK</h6>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="../img/qr-code.png" alt="" style="width: 100%; border: 1px solid gray;">
+                                </div>
+                                <div class="col-8">
+                                    <ul>
+                                        <li class="btn-app-download"><a href=""><i class="fab fa-apple"></i>App Store</a></li>
+                                        <li class="btn-app-download"><a href=""><i class="fab fa-google-play"></i>Google Play</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAddAddress" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header px-5 pt-4">
+                <h5 class="modal-title fw-bold">Địa Chỉ Mới</h5>
+            </div>
+            <div class="modal-body px-5 py-4">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtName" placeholder="Họ và tên">
+                            <p class="form-text" id="NameNontification">Nhập họ tên theo mẫu: Huynh Thien Phat</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Số điện thoại">
+                            <p class="form-text" id="phoneNumberNontification"></p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtAddress" placeholder="Địa chỉ">
+                            <p class="form-text text-danger" id="addressNontification"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer px-5 py-4">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">TRỞ LẠI</button>
+                <button type="button" class="btn btn-primary" id="btnAddAddress">HOÀN THÀNH</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalChangeAddress" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header px-5 pt-4">
+                <h5 class="modal-title fw-bold">Chỉnh sửa địa chỉ</h5>
+            </div>
+            <div class="modal-body px-5 py-4">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtName" placeholder="Họ và tên">
+                            <p class="form-text" id="NameNontification">Nhập họ tên theo mẫu: Huynh Thien Phat</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Số điện thoại">
+                            <p class="form-text" id="phoneNumberNontification"></p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="txtAddress" placeholder="Địa chỉ">
+                            <p class="form-text text-danger" id="addressNontification"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer px-5 py-4">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">TRỞ LẠI</button>
+                <button type="button" class="btn btn-primary" id="btnSaveChangeContact">HOÀN THÀNH</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAddBankAccount" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header px-5 pt-4">
+                <h5 class="modal-title fw-bold">Thêm Thẻ</h5>
+            </div>
+            <div class="modal-body px-5 py-4">
+                <fieldset>
+                    <h6 class="my-2">Chi tiết thẻ</h6>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Họ và tên trên thẻ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Số thẻ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input class="form-control" type="text" placeholder="Ngày hết hạn (MM / YY)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input class="form-control" type="text" placeholder="Mã CVV">
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+                <fieldset>
+                    <h6 class="my-2">Địa chỉ xuất hóa đơn</h6>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Địa chỉ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Mã bưu chính">
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="modal-footer px-5 py-4">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">TRỞ LẠI</button>
+                <button type="button" class="btn btn-primary">HOÀN THÀNH</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalChangePassword" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header px-5 pt-4">
+                    <h5 class="modal-title fw-bold">Đổi mật khẩu</h5>
+                </div>
+                <div class="modal-body px-5 py-4">
+                    <fieldset>
+                        <form>
+                            <div class="form-group row">
+                                <p class="form-label fw-bold mb-1">Mật khẩu hiện tại</p>
+                                <div class="col-12">
+                                    <input type="password" class="form-control" id="txtNowPassword" placeholder="Nhập mật khẩu hiện tại">
+                                    <p class="form-text" id="NowPasswordNontification"></p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <p class="form-label fw-bold mb-1">Mật khẩu mới</p>
+                                <div class="col-12">
+                                    <input type="password" class="form-control" id="txtNewPassword" placeholder="Nhập mật khẩu mới">
+                                    <p class="form-text" id="NewPasswordNontification">Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng</p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <p class="form-label fw-bold mb-1">Xác nhận mật khẩu mới</p>
+                                <div class="col-12">
+                                    <input class="form-control" id="txtNewPasswordConfirm" type="password" placeholder="Nhập lại mật khẩu mới">
+                                    <p class="form-text text-danger" id="NewPasswordConfirmNontification"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="modal-footer px-5 py-4">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">TRỞ LẠI</button>
+                    <button type="button" class="btn btn-primary" id="btnUpdateNewPassword">CẬP NHẬT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</htms>

@@ -1,0 +1,56 @@
+.box-search {
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.product {
+    margin-bottom: 7px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-name {
+    margin: 0;
+}
+
+.product-price {
+    color: tomato;
+}
+
+.num-of-product {
+    font-size: 13px;
+    margin: 0;
+}
+
+.total-amount {
+    font-size: 25px;
+    color: tomato;
+}
+
+.box-product .btn-outline-secondary {
+    border-color: gainsboro;
+    color: rgba(0, 0, 0, .8);
+}
+.box-product .btn-outline-secondary:hover {
+    background-color: transparent;
+    border-color: tomato;
+    color: tomato;
+}
+
+.no-other {
+    height: 550px; 
+    display: flex; 
+    align-items: center;
+    display: none;
+}
+
+.address input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+
+.address .line {
+    margin-top: 10px;
+}

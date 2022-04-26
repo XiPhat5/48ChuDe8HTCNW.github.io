@@ -1,0 +1,35 @@
+.main nav .icon {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    float: left;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.main nav a:hover {
+    color: tomato !important;
+}
+
+.main .active {
+    color: tomato !important;
+    font-weight: 500;
+}
+
+.modal .row {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.nav-link {
+    margin: 0 auto;
+}
+
+.form-text {
+    font-size: 13px;
+}

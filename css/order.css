@@ -1,0 +1,63 @@
+.main nav .icon {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    float: left;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.main nav a:hover {
+    color: tomato !important;
+}
+
+.main .active {
+    color: tomato !important;
+    font-weight: 500;
+}
+
+.product {
+    margin-bottom: 7px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-name {
+    margin: 0;
+}
+
+.num-of-product {
+    font-size: 13px;
+    margin: 0;
+}
+
+.total-amount {
+    font-size: 30px;
+    color: tomato;
+}
+
+.order .btn-outline-secondary {
+    border-color: gainsboro;
+    color: rgba(0, 0, 0, .8);
+}
+.order .btn-outline-secondary:hover {
+    background-color: transparent;
+    border-color: tomato;
+    color: tomato;
+}
+
+.order #txtOrderNote {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+.card {
+    box-shadow: 5px 5px 5px gainsboro;
+}
+
+.card img {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+}
